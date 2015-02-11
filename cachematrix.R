@@ -2,7 +2,7 @@
 makeCacheMatrix <- function(x = matrix()) {
   #initial the valuable inverse
   inverse <- NULL
-  mymatrix <<- x
+ 
   set <- function(x){
     mymatrix <<- x
     inverse <<- NULL;
